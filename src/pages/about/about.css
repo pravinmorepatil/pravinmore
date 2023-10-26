@@ -1,0 +1,77 @@
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.aboutMeImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px;
+}
+.aboutMeImg > img{
+    width: 350px;
+    height: 350px;
+}
+.aboutMeDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.aboutMeDetails > h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.aboutMeDetails > h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.aboutMeDetails > h5{
+    text-align: center;
+    margin: 20px;
+}
+.skillContaineer{
+    display: flex;
+    justify-content: space-between;
+}
+.skillsList{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.aboutSocial{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.aboutDesc{
+    display: flex;
+}
+.desc{
+    padding: 25px;
+    line-height: 25px ;
+    text-align: center;
+    padding: 5px 250px 5px 250px;
+}
+
+
+
+.aboutIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: red;
+}
